@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container{
+    margin: auto;
+    display: flex;
+    gap:10px;
+}
+.main{
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: gold;
+}
+.main1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+#myDIV{
+    width: 350px;
+    height: 350px;
+    position: fixed;
+    left: 50%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    transform: translate(-50%,-50%);
+    top: -500%;
+    transition: 0.5s;
+}
+#myDIV h2{
+    align-items: center;
+    border-bottom: 1px solid red;
+    padding: 15px;
+    margin: 5px;
+    position: relative;
+}
+#myDIV h2 span{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.mystyle{
+    top: 50%;
+}
